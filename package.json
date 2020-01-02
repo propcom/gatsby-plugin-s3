@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jariz/gatsby-plugin-s3.git"
+    "url": "https://github.com/propcom/gatsby-plugin-s3"
   },
   "keywords": [
     "gatsby",
@@ -61,12 +61,12 @@
   "peerDependencies": {
     "gatsby": ">2.0.0-alpha"
   },
-  "author": "Jari Zwarts <jarizw@gmail.com>",
+  "author": "Propeller Communications <propeller.communications@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jariz/gatsby-plugin-s3/issues"
+    "url": "https://github.com/propcom/gatsby-plugin-s3/issues"
   },
-  "homepage": "https://github.com/jariz/gatsby-plugin-s3#readme",
+  "homepage": "https://github.com/propcom/gatsby-plugin-s3#readme",
   "dependencies": {
     "async": "^2.6.2",
     "aws-sdk": "^2.382.0",
@@ -120,5 +120,8 @@
       "pre-commit": "npm run typecheck && lint-staged"
     }
   },
-  "snyk": true
+  "snyk": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@propcom"
+  }
 }
